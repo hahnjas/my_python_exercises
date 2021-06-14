@@ -1,10 +1,10 @@
 import time
 
-print("three", flush=True, end="\r")
+print("three", end="\r")
 time.sleep(1)
 
-print("two  ", flush=True, end="\r")
+print("two  ", end="\r")
 time.sleep(1)
 
-print("one  ", flush=True)
+print("one  ")
 time.sleep(1)
